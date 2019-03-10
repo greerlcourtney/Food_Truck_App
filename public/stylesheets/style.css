@@ -1,0 +1,37 @@
+
+.header {
+	font-family: "Segoe UI";
+	font-size: 40px;
+	color: turquoise;
+	text-align:center;
+}
+.searchBar {
+	font-family: "Segoe UI";
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+input[type=text]{
+ padding: 10px;
+ border-top: 1px;
+ border-right: 1px;
+ border-left: 1px;
+ margin: 10px;
+}
+
+body{
+  font-family: "Segoe UI";
+  font-size: 20px;
+  
+}
+.ftList {
+	text-align: center
+}
+
+.ftBlock{
+	border: black solid;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 40px;
+}
