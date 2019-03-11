@@ -1,6 +1,6 @@
 
 # SF Food Truck Application
-**By: Counrtey Greer**
+**By: Courtney Greer**
 https://github.com/greerlcourtney
 
 
