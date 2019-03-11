@@ -5,19 +5,24 @@ https://github.com/greerlcourtney
 
 
 ## THE ASSIGNMENT:
- [Take Home Engineerign Assignment - San Francisco FoodTrucks][1] [1]:https://github.com/timfpark/take-home-engineering-challenge
+ [Take Home Engineerign Assignment - San Francisco FoodTrucks](https://github.com/timfpark/take-home-engineering-challenge)
 
 ---
 In short the assignment was to make it possible for a user to find a food truck no matter where their location took them in the city.
 The only requirement for the assignment is that it give us at least 5 food trucks to choose from a particular latitude and longitude.
 
-##R EADME Table of Contents
+## README Table of Contents
 ---
 I. Installation instructions
+
 II. Technologies Used
+
 III. Requirements
+
 IV. Future Additions
+
 V. Test Plan
+
 VI. Closing Thoughts
 
 ### I. Instalation Instructions
