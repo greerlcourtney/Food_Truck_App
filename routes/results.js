@@ -6,12 +6,9 @@ var request = require("request");
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    
-  
     //Receive User Input
     var userInput = req.query.userInput_submited;
     
-   
     //GeoCode User Address
     var geocodeURL = "https://geocoder.api.here.com/6.2/geocode.json?app_id=BC0zfDGNOi8yQ93qIIqw&app_code=J4Y7Vw7dlsMBkAB-tt2FXw&searchtext=" + userInput + "&city=San Francisco"
     request(geocodeURL, function (error, response, body) {
@@ -27,7 +24,7 @@ router.get('/', function (req, res, next) {
             var longBoundAdd = userLong + .1;
             var longBoundMinus = userLong - .1;
             
-            
+            //API call to SFGov for location data on SF Foodtrucks
             var truckURL = "https://data.sfgov.org/resource/6a9r-agq8.json?$where=latitude between '" + latBoundMinus + "' and '" + latBoundAdd +"' &$limit=10";
             request(truckURL, function (error, response, body) {
                 if (!error && response.statusCode == 200) {

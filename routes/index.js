@@ -3,12 +3,10 @@ var router = express.Router();
 var request = require("request");
 
 
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index.ejs');  
   
 });
-
 
 module.exports = router;

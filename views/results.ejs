@@ -6,18 +6,16 @@
 </head>
 <body>
 	<div class="header">
-        <h1> Top 5 Closest FoodTrucks to You! </h1>
-      
+        <h1> Top 5 Closest FoodTrucks to You! </h1>  
     </div>
     <div class="ftList">
         <% for(var i = 0; i < 5; i++){%>
             <div class="ftBlock">
                 <strong><%=sfTrucksData[i]["applicant"] %></strong>
-                  <br> <%=sfTrucksData[i]["address"] %>
+                <br> <%=sfTrucksData[i]["address"] %>
             </div>
-        <%}%>
-    <div>   
-    </div>
+        <%}%> 
+    </div>   
     <div>
         <a href="/"> Back </a>
     </div>
