@@ -25,13 +25,13 @@ V. Test Plan
 
 VI. Closing Thoughts
 
-### I. Instalation Instructions
+### I. Installation Instructions
 ---
 
 To run this program. Please clone the entire project folder from github
 Next: Open up the termnal from inside of the project folder
 Next: Inside of the terminal type "npm start" to runt he server
-Next: Inside your favorite browser go to "localhose:3000/" to load the home screen
+Next: Inside your favorite browser go to "localhost:3000/" to load the home screen
 Next: When entering your San Francisco Location you will only need to enter street address, the application will handle the rest
     Example Addresses:  [ 3369 Mission St. ] [ 401 Van Ness ] [ 600 Guerrero St ] [ 2675 Geary Blvd ]
 
